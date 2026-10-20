@@ -1,0 +1,82 @@
+{
+  "name": "Package",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Name of the journey"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "heritage",
+        "spiritual",
+        "custom"
+      ],
+      "default": "heritage"
+    },
+    "eyebrow": {
+      "type": "string",
+      "description": "Small label above the title, e.g. 'The Complete Heritage Experience'"
+    },
+    "summary": {
+      "type": "string",
+      "description": "One or two sentences shown on the package card"
+    },
+    "description": {
+      "type": "string",
+      "description": "Longer narrative shown on the packages page"
+    },
+    "duration_label": {
+      "type": "string",
+      "description": "How long the journey runs, in plain words (e.g. '5 days / 4 nights')"
+    },
+    "price_note": {
+      "type": "string",
+      "description": "What to say about cost, e.g. 'Shared personally on enquiry'"
+    },
+    "best_for": {
+      "type": "string",
+      "description": "Who this journey suits"
+    },
+    "inclusions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "image_url": {
+      "type": "string",
+      "description": "Photograph for this journey"
+    },
+    "display_order": {
+      "type": "number",
+      "default": 0
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": [
+    "title"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}
