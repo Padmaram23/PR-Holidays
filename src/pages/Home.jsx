@@ -9,6 +9,7 @@ import JourneySection from '@/components/home/JourneySection';
 import DetailsSection from '@/components/home/DetailsSection';
 import ExperiencesSection from '@/components/home/ExperiencesSection';
 import ClosingSection from '@/components/home/ClosingSection';
+import ShopTeaser from '@/components/home/ShopTeaser';
 
 const experiences = [
   'The Living Heritage Journey',
@@ -27,6 +28,7 @@ export default function Home() {
         <DetailsSection />
         <ExperiencesSection />
         <ClosingSection />
+        <ShopTeaser />
         <StorySection />
         <ContactSection experiences={experiences} source="home" />
       </main>

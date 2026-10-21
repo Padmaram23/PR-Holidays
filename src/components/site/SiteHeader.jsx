@@ -9,6 +9,7 @@ const links = [
   { label: 'The Experience', to: '/#experience' },
   { label: 'Food & Culture', to: '/#food' },
   { label: 'Our Packages', to: '/packages' },
+  { label: 'Shop', to: '/shop' },
   { label: 'Our Story', to: '/#story' },
   { label: 'Contact', to: '/#contact' }
 ];

@@ -15,7 +15,10 @@ export const images = {
   sacredPanel: '/src/data/images/bff74afac_generated_b779630b.png',
   closing: '/src/data/images/8385c570e_generated_6ad43021.png',
   packagesHero: '/src/data/images/218d11cfd_generated_c4d0b65b.png',
-  bananaLeaf: '/src/data/images/ed5b3c2bf_generated_eb49abec.png'
+  bananaLeaf: '/src/data/images/ed5b3c2bf_generated_eb49abec.png',
+  shopCover: '/src/data/images/Thanjavur_Dolls.webp',
+  dollPair: '/src/data/images/thanjavur-rajarani-dolls-d2-1.jpg',
+  DeviSaraswatiPainting: '/src/data/images/Devi-Saraswati-Tanjore-Painting-Naresh-Maghwal-02.jpg',
 };
 
 export default images;
