@@ -1,6 +1,7 @@
 export const images = {
   hero: '/src/data/images/129f24583_generated_371fe473.png',
-  artisan: '/src/data/images/cb769981f_generated_98193a96.png',
+  logo: '/src/data/images/f8de3c46-04d5-41ff-9783-42b75b7941e5.png',
+  thalaiyattiDoll: '/src/data/images/0afea670b_generated_image.png',
   veranda: '/src/data/images/2ca8d8463_generated_883dfe08.png',
   stoneDetail: '/src/data/images/3ae35beee_generated_ab131d03.png',
   welcome: '/src/data/images/21feccef2_generated_b8a88150.png',

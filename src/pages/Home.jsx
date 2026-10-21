@@ -23,11 +23,11 @@ export default function Home() {
       <SiteHeader />
       <main>
         <Hero />
-        <StorySection />
         <JourneySection />
         <DetailsSection />
         <ExperiencesSection />
         <ClosingSection />
+        <StorySection />
         <ContactSection experiences={experiences} source="home" />
       </main>
       <SiteFooter />

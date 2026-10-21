@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import Motif from '@/components/site/Motif';
 
 const explore = [
-  { label: 'Our Story', to: '/#story' },
   { label: 'The Experience', to: '/#experience' },
   { label: 'Food & Culture', to: '/#food' },
   { label: 'Our Packages', to: '/packages' },
+  { label: 'Our Story', to: '/#story' },
   { label: 'Contact', to: '/#contact' }
 ];
 

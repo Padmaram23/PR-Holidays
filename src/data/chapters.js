@@ -15,9 +15,24 @@ export const chapters = [
     imageAlt: 'A host welcoming a traveller with a jasmine garland at the airport'
   },
   {
-    id: 'cholas',
+    id: 'stay',
     number: '02',
     eyebrow: 'Chapter Two',
+    title: 'Clean, Comfortable and Right in the City.',
+    headline: 'Rest Well in Thanjavur City. Step Out to Everything.',
+    body: [
+      'Authenticity should never mean compromising on cleanliness or comfort. Your stay is in Thanjavur city itself — chosen for hygiene, safety and a genuinely restful night.',
+      'Every stay we book has clean rooms and bathrooms, fresh linen, running hot water and reliable power. Pharmacies, ATMs, hospitals, shops, cafés and transport are all close by, so every basic need is within easy reach.',
+      'Step outside and you are minutes from the Big Temple, the markets and the quiet evening streets of the city. Return to a spotless, well-maintained room at the end of the day.'
+    ],
+    note: 'Comfort here means spotlessly clean, cared-for and quiet — not necessarily luxurious. We tell you honestly what each stay offers before you choose it.',
+    image: images.stay,
+    imageAlt: 'A simple traditional guest room with a teak bed and red oxide floor'
+  },
+  {
+    id: 'cholas',
+    number: '03',
+    eyebrow: 'Chapter Three',
     title: 'Discover the World of the Cholas',
     headline: 'Where Stone Remembers, and Stories Still Breathe.',
     body: [
@@ -30,8 +45,8 @@ export const chapters = [
   },
   {
     id: 'food',
-    number: '03',
-    eyebrow: 'Chapter Three',
+    number: '04',
+    eyebrow: 'Chapter Four',
     title: 'Taste the Tamil Nadu Beyond the Banana Leaf',
     headline: 'The Real Feast Begins Before the Banana Leaf.',
     body: [
@@ -48,8 +63,8 @@ export const chapters = [
   },
   {
     id: 'village',
-    number: '04',
-    eyebrow: 'Chapter Four',
+    number: '05',
+    eyebrow: 'Chapter Five',
     title: 'One Night, A Different Kind of Belonging',
     headline: 'For One Night, Don’t Be a Guest. Be Part of the Village.',
     body: [
@@ -61,21 +76,6 @@ export const chapters = [
     note: 'Village life is shared, never staged. We never present our neighbours as an attraction, and time inside a family home happens only by invitation.',
     image: images.villageStreet,
     imageAlt: 'A Thanjavur village lane at dusk with lamps glowing in doorways'
-  },
-  {
-    id: 'stay',
-    number: '05',
-    eyebrow: 'Chapter Five',
-    title: 'Traditional Roots. Thoughtful Comfort.',
-    headline: 'Experience the Village. Rest Easy.',
-    body: [
-      'Authenticity should never mean compromising on cleanliness or comfort.',
-      'Our stays are carefully selected for hygiene, thoughtful hospitality, comfortable bedding, clean bathrooms, and a peaceful place to rest after a day of discovery.',
-      'Experience the character of the region while enjoying the reassurance of a well-maintained stay.'
-    ],
-    note: 'Comfort here means clean, cared-for and quiet — not necessarily luxurious. We tell you honestly what each stay offers before you choose it.',
-    image: images.stay,
-    imageAlt: 'A simple traditional guest room with a teak bed and red oxide floor'
   },
   {
     id: 'farewell',
